@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("http://www.nesta.org.uk/sites/default/files/time_travel_photo.jpg") 0 0;
+  background: #151515 url(".../images/background.jpg") 0 0;
   background-size: 100% 100%;
   color: #eaeaea;
   font: 16px;
