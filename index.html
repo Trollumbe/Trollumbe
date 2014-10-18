@@ -12,8 +12,14 @@
 	<script src="javascripts/typed.js"></script>
 	<script>
 	  $(function(){
+		  $(".typedtop").typed({
+			strings: [ "Simplicity is the ultimate sophistication. - Leonardo da Vinci"],
+			typeSpeed: 19
+		  });
+	  });
+	  $(function(){
 		  $(".typed").typed({
-			strings: [ "Simplicity is the ultimate sophistication. - Leonardo da Vinci\nSuccess is a lousy teacher. It seduces smart people into thinking they can't lose. - Bill Gates", "C'est la vie.",],
+			strings: [ "Success is a lousy teacher. It seduces smart people into thinking they can't lose. - Bill Gates", "C'est la vie.",],
 			typeSpeed: 19
 		  });
 	  });
@@ -27,9 +33,13 @@
         <span style = "font-size:300%; color:#ffffff">Trollumbe.me</span>
       </div>
     </header>
+    
+    <div class="typedtop" style="font-size: 150%; color: ffffff"></div>
+    <div class="typed" style="font-size: 150%; color: ffffff"></div>
+    
     <div class="container">
       <section id="main_content">
-		<div class="typed" style="font-size: 150%; color: ffffff"></div>
+      		
       </section>
     </div>  
   </body>
