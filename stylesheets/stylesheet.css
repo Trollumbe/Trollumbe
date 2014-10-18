@@ -187,6 +187,8 @@ hr {
 */
 
 .btn {
+  margin-left: auto;
+  margin-right: auto;
   display: inline-block;
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
   padding: 8px 18px;
