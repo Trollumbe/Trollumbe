@@ -9,6 +9,13 @@
 	<script src="javascripts/typed.js"></script>
 	<script>
 	  $(function(){
+	var myVideo=document.getElementById("trollumbed.mp4"); 
+	if (myVideo.paused) {
+	  myVideo.play(); 
+	}	
+	else { 
+	 myVideo.pause(); 
+	} 
 		  $(".typedtop").typed({
 			strings: [ "Unfortunately, Google has prevented me from TROLLUMBEing Android Chrome users."],
 			typeSpeed: 19,
